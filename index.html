@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Ahmed's Portfolio</title>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">
+            <span class="nav__logo-circle">A</span>
+            <span class="nav__logo-name">Ahmed Radwan</span>
+         </a>
+
+         <div class="nav__menu" id="nav-menu">
+            <span class="nav__title">Menu</span>
+
+            <h3 class="nav__name">Ahmed</h3>
+
+            <ul class="nav__list" style="display: flex; align-items: center; column-gap: 2rem;">
+               <li class="nav__item">
+                  <a href="#home" class="nav__link active-link">Home</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#about" class="nav__link">About Me</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#Experience" class="nav__link">Experience</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#Publications" class="nav__link">Publications</a>
+               </li>
+
+               <!-- New Portfolio link -->
+               <li class="nav__item">
+                  <a href="#Personal_Dev" class="nav__link">Personal Dev</a>
+               </li>
+
+               <!-- New Blog link -->
+               <li class="nav__item">
+                  <a href="#Projects" class="nav__link">Projects</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#contact" class="nav__link nav__link-button"
+                     style="background-color: var(--black-color); color: var(--white-color); padding: 1.1rem 2rem; margin-left: auto; border-radius: 4px;">
+                     Contact Me
+                  </a>
+               </li>
+            </ul>
+
+
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+
+         <div class="nav__buttons">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-4-line"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <h1 class="home__name">
+               Ahmed Radwan
+            </h1>
+
+            <div class="home__perfil">
+               <div class="home__image">
+                  <img src="assets/img/MainPicture.png" alt="image" class="home__img">
+                  <div class="home__shadow"></div>
+                  <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
+                  <img src="assets/img/random-lines.svg" alt="" class="home__line">
+
+                  <div class="geometric-box"></div>
+               </div>
+
+               <div class="home__social">
+                  <a href="https://github.com/AhmedRadwan02" target="_blank" class="home__social-link">
+                     <i class="ri-github-line"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ahmedyradwan/" target="_blank" class="home__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+               </div>
+            </div>
+
+            <div class="home__info">
+               <p class="home__description">
+                  <b>Computer Scientist</b>, specializing in AI, machine learning, and data science. I am passionate
+                  about developing innovative projects and continuously expanding my expertise in natural language
+                  processing and backend development. I actively contribute to the community through educational and
+                  volunteer initiatives.
+               </p>
+
+               <a href="#about" class="home__scroll">
+                  <div class="home__scroll-box">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </div>
+
+                  <span class="home__scroll-text">Scroll Down</span>
+               </a>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container grid">
+            <h2 class="section__title-1">
+               <span>About Me</span>
+            </h2>
+
+            <div class="about__perfil">
+               <div class="about__image">
+                  <img src="assets/img/AboutPicture.png" alt="image" class="about__img">
+
+                  <div class="about__shadow"></div>
+
+                  <div class="geometric-box"></div>
+
+                  <img src="assets/img/random-lines.svg" alt="" class="about__line">
+                  <div class="about__box"></div>
+               </div>
+            </div>
+            <div class="about__info">
+               <p class="about__description">
+                  Hello, I'm Ahmed Radwan, a <b>Master's student</b> in Computer Scienceat York University. Currently a
+                  <b>research intern</b> at KAUST, focusing on <b>Distributed Machine Learning</b> and
+                  <b>Self-Supervised Learning</b>.
+                  Passionate about <b>AI, AR</b>, and their real-world applications. Experienced in implementing AI
+                  concepts
+                  through practical projects over the past two years.
+               </p>
+
+
+               <ul class="about__list">
+                  <li class="about__item">
+                     <b>My AI Development Skills Are:</b> Python, Pytorch, Pandas, Numpy, Sklearn, NLP, Hugging Face,
+                     Computer Vision.
+                  </li>
+                  <li class="about__item">
+                     <b>My Backend Development Skills Are:</b> Java, Git, MySQL.
+                  </li>
+               </ul>
+               <div class="about__buttons">
+                  <a href="/AhmedRadwan_CV.pdf" target="_blank" class="button">
+                     <i class="ri-file-line"></i> My Resume
+                  </a>
+                  <a href="#contact" class="button">
+                     <i class="ri-send-plane-line"></i> Contact Me
+                  </a>
+                  <a href="https://www.linkedin.com/in/ahmedyradwan/" target="_blank" class="button__ghost">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+               </div>
+
+            </div>
+         </div>
+      </section>
+
+      <!--====================  EXPERIENCE ====================-->
+      <section class="certifications section" id="Experience">
+         <h2 class="section__title-2">
+            <span>
+               Experience
+            </span>
+         </h2>
+         <div class="certifications__container container grid">
+            <article class="certifications__card">
+               <div class="certifications__content">
+                  <h2 class="certifications__title"> Research Intern</h2>
+                  <h3 class="projects__subtitle">KAUST,Information Science Lab
+                  </h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     I developed AI components for a mobile app that tracks and notifies users about Rak'ah completion
+                     during Salah using smartphone IMU sensors. This involved collecting, cleaning, and testing data
+                     from accelerometer and gyroscope sensors, implementing real-time motion recognition for prayer and
+                     transition classification, and deploying the model on an Android app. I am currently enhancing the
+                     real-time processing systems to improve accuracy in state identification and integrating error
+                     detection mechanisms to correct movement deviations.
+                  </p>
+               </div>
+            </article>
+            <article class="certifications__card">
+               <div class="certifications__content">
+                  <h2 class="certifications__title"> Research Assistant</h2>
+                  <h3 class="projects__subtitle">KAUST, Communication Theory Lab
+                  </h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     I focused on reducing computational and communication energy in AI tasks, with a particular
+                     emphasis on testing NLP sentiment analysis by comparing centralized, federated, and split learning
+                     techniques. I applied optimization techniques such as quantization and conducted joint research at
+                     the intersection of AI and communication fields.
+                  </p>
+               </div>
+            </article>
+            <article class="certifications__card">
+               <div class="certifications__content">
+                  <h2 class="certifications__title"> Researcher</h2>
+                  <h3 class="projects__subtitle">Asas.ai
+                  </h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     I designed and implemented LLM-based applications with a focus on Arabic language processing,
+                     conducting a comprehensive review and analysis of Arabic instruction-tuning datasets to enhance
+                     model performance.
+                  </p>
+               </div>
+            </article>
+            <article class="certifications__card">
+               <div class="certifications__content">
+                  <h2 class="certifications__title"> Head of AI Unit
+                  </h2>
+                  <h3 class="projects__subtitle">Drone and Robotics Aziz Group at KAU
+
+                  </h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     I led a team of 50 members, guiding their development and preparing them for hackathon
+                     participation. In addition to managing the team, I conducted bootcamps on Introduction to AI,
+                     Computer Vision, and TinyML, equipping participants with essential skills. I also spearheaded the
+                     AI team for DRAG SUAS 2024, where we achieved an impressive 16th place ranking.
+                  </p>
+               </div>
+            </article>
+            <article class="certifications__card">
+               <div class="certifications__content">
+                  <h2 class="certifications__title"> ArtificialIntelligence Intern
+                  </h2>
+                  <h3 class="projects__subtitle">KAUST
+                  </h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     I gained experience in deep learning, including autoencoders, VAEs, and GANs with a focus on
+                     unsupervised and generative modeling. I also learned reinforcement learning for optimizing policies
+                     in dynamic environments, graph neural networks for recommendation systems, and natural language
+                     processing (NLP) techniques such as text and sentiment analysis, as well as language modeling.
+                  </p>
+               </div>
+            </article>
+            <article class="certifications__card">
+               <div class="certifications__content">
+                  <h2 class="certifications__title"> Teaching Assistant
+                  </h2>
+                  <h3 class="projects__subtitle">KAUST Academy
+                  </h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     I assisted in teaching the Introduction to Artificial Intelligence course, covering topics such as
+                     calculus, linear algebra, machine learning, and deep learning. Additionally, I supported the
+                     Advanced Artificial Intelligence course, which focused on CNNs, data loading, autoencoders,
+                     segmentation, and object detection.
+                  </p>
+               </div>
+            </article>
+         </div>
+      </section>
+      <!--==================== PUBLICATIONS ====================-->
+      <section class="projects section" id="Publications">
+         <h2 class="section__title-2">
+            <span>
+               Publications
+            </span>
+         </h2>
+         <div class="projects__container container grid">
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__image">
+                  <a href="https://arxiv.org/pdf/2403.01575" target="_blank" class="projects__button button"
+                     style="position: absolute; right: 0rem; bottom: -0.5rem; padding: 1rem;">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+
+               <div class="projects__content">
+                  <h2 class="certifications__title"> SARD: A Human-AI Collaborative Story Generation</h2>
+                  <h3 class="projects__subtitle">HCI International 2024</h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     <b>Ahmed Y. Radwan</b>, Khaled M. Alasmari, Omar A. Abdulbagi, Emad A. Alghamdi
+                     : "SARD: A Human-AI Collaborative Story Generation" (HCII 2024).
+                     <br>
+                     <br>
+                     Developed a novel visual interface for AI-assisted story generation, leading design,
+                     implementation, and user studies.
+                  </p>
+               </div>
+            </article>
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__image">
+                  <a href="https://arxiv.org/pdf/2402.00910" target="_blank" class="projects__button button"
+                     style="position: absolute; right: 0rem; bottom: -0.5rem; padding: 1rem;">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+
+               <div class="projects__content">
+                  <h2 class="certifications__title"> Addressing Bias Through Ensemble Learning and Regularized
+                     Fine-Tuning</h2>
+                  <h3 class="projects__subtitle">Preprint</h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     <b>Ahmed Y. Radwan</b>, Layan Zaafarani, Jetana Abudawood, Faisal AlZahrani, Fares Fourati
+                     : "Addressing Bias Through Ensemble Learning and Regularized Fine-Tuning" (Preprint).
+                     <br>
+                     <br>
+                     Co-authored preprint proposing a novel approach to reduce bias in AI models with
+                     limited data. Method combines fine-tuning, ensemble learning, and knowledge
+                     distillation, demonstrating improved fairness on CIFAR-10 and HAM10000 datasets.
+                  </p>
+               </div>
+            </article>
+         </div>
+      </section>
+      <!--==================== PERSONAL DEV ====================-->
+      <section class="certifications section" id="Personal_Dev">
+         <h2 class="section__title-2">
+            <span>
+               Personal Development
+            </span>
+         </h2>
+         <div class="projects__container container grid">
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__content">
+                  <h2 class="certifications__title"> Courses</h2>
+                  <h3 class="projects__subtitle">KAUST TinyML Course</h3>
+                  <br>
+                  <a href="https://drive.google.com/file/d/1kOeNijqiLIStLqa5FzvXveAALVxns6Bf/view" target="_blank">
+                     <h3 class="projects__subtitle">KAUST-Sdaia AI Summer Program</h3>
+                  </a>
+                  <br>
+
+                  <a href="https://www.coursera.org/account/accomplishments/specialization/YLJ8UC55XP9A?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"
+                     target="_blank">
+                     <h3 class="projects__subtitle">Mathematics for Machine Learning and Data Science</h3>
+                  </a>
+                  <br>
+
+                  <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/RNR7STK2K6P3"
+                     target="_blank">
+                     <h3 class="projects__subtitle">Machine Learning Specialization</h3>
+                  </a>
+                  <br>
+
+                  <a href="https://drive.google.com/file/d/1Do1PQ2uxFvk9_3-kfBH-vN9iBI5OJPKI/view" target="_blank">
+                     <h3 class="projects__subtitle">Advanced AI</h3>
+                  </a>
+                  <br>
+
+                  <a href="https://drive.google.com/file/d/1_ArFHeXOPnykfx6zY7hOpFcBH21W1PRJ/view" target="_blank">
+                     <h3 class="projects__subtitle">Introduction to AI</h3>
+                  </a>
+                  <br>
+
+               </div>
+            </article>
+
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__content">
+                  <h2 class="certifications__title"> Competitions</h2>
+                  <h3 class="projects__subtitle">SUAS Competition 2024</h3>
+                  <br>
+                  <a href="https://www.linkedin.com/posts/adtc-2024_adtc2024-automationconference-digitaltransformation-activity-7190633158474670081-6dje/?utm_source=share&utm_medium=member_desktop"
+                     target="_blank">
+                     <h3 class="projects__subtitle">1st Place Winner for 2024 Student Games Under ISA and Sponsored By
+                        Aramco: GreenSight AI.</h3>
+                  </a> <br>
+                  <h3 class="projects__subtitle">1st Place Winner at 'Sehah Thon 2': Enjad</h3>
+                  <br>
+                  <h3 class="projects__subtitle">Saudi Space App Hackathon</h3>
+                  <br>
+                  <h3 class="projects__subtitle">AI Hackathon by Kaust</h3>
+                  <br>
+                  <h3 class="projects__subtitle">Programming Jam 4.0 & 6.0</h3>
+                  <br>
+
+               </div>
+            </article>
+
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__content">
+                  <h2 class="certifications__title"> Volunteer</h2>
+                  <a href="https://drive.google.com/file/d/1jdb27RQQ79JBX48l3W1qyYk9M43XyMCd/view" target="_blank">
+                     <h3 class="projects__subtitle">Coordinating WAICY 2023</h3>
+                  </a>
+                  <br>
+                  <a href="https://drive.google.com/file/d/1WaoGLCaNhSFvvtjKnS4DfueRWiFl0ziW/view" target="_blank">
+                     <h3 class="projects__subtitle">Teaching Computer Vision Bootcamp</h3>
+                  </a>
+                  <br>
+
+                  <a href="https://drive.google.com/file/d/11tZ4iF1tQXhlFJyg-YTljojfJGmlaIc6/view" target="_blank">
+                     <h3 class="projects__subtitle">Teaching Introduction to AI Bootcamp</h3>
+                  </a>
+                  <br>
+                  <h3 class="projects__subtitle">Teaching TinyML Bootcamp</h3>
+                  <br>
+
+                  <h3 class="projects__subtitle">Mentor at TransAI Competition in Engineering Day</h3>
+                  <br>
+                  <h3 class="projects__subtitle">Python Tutor</h3>
+                  <br>
+
+               </div>
+            </article>
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__content">
+                  <h2 class="certifications__title"> In Progress</h2>
+                  <h3 class="projects__subtitle">Research in Reducing Power Usage in NLP tasks on Microcontrollers</h3>
+                  <br>
+                  <h3 class="projects__subtitle">Research in Tiny Multimodal</h3>
+                  <br>
+               </div>
+            </article>
+         </div>
+      </section>
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="Projects">
+         <h2 class="section__title-2">
+            <span>
+               Projects
+            </span>
+         </h2>
+         <div class="projects__container container grid">
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__image">
+                  <img src="assets/img/project-1.png" alt="Project 1" class="projects__img" width="200" height="200"
+                     style="display: block; margin: 0 auto; margin-left: 50px;">
+                  <a href="https://drive.google.com/file/d/1MjEGwWkkJZ_JNMbrKkNMdt8ixMM5weis/view" target="_blank"
+                     class="projects__button button">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+
+               <div class="projects__content">
+                  <h2 class="projects__title">SARD: Images-Inspired Narratives</h2>
+                  <p class="certifications__description" style="text-align: justify;">
+                     Developed a novel visual interface for AI-assisted story generation, leading design,
+                     implementation, and user studies.
+                  </p>
+               </div>
+            </article>
+
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__image">
+                  <img src="assets/img/project-2.png" alt="Picture 2" class="projects__img" width="200" height="200"
+                     style="display: block; margin: 0 auto; margin-left: 50px;">
+
+                  <a href="https://drive.google.com/file/d/1hF1ToNqu8ClunjITZhUdby3ox6dN_L3o/view" target="_blank"
+                     class="projects__button button">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+
+               <div class="projects__content">
+                  <h2 class="projects__title">Addressing Bias</h2>
+                  <p class="certifications__description" style="text-align: justify;">
+                     Co-authored preprint proposing a novel approach to reduce bias in AI models with
+                     limited data. Method combines fine-tuning, ensemble learning, and knowledge
+                     distillation, demonstrating improved fairness on CIFAR-10 and HAM10000 datasets.
+                  </p>
+               </div>
+            </article>
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__image">
+                  <img src="assets/img/project-3.png" alt="Picture 3" class="projects__img" width="200" height="200"
+                     style="display: block; margin: 0 auto; margin-left: 50px;">
+                  <a href="https://github.com/AhmedRadwan02/SkinCancerClassification" target="_blank"
+                     class="projects__button button">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+               <div class="projects__content">
+                  <h2 class="projects__title">Skin Cancer Classification</h2>
+                  <p class="certifications__description" style="text-align: justify;">
+                     Developed a model for image classification using data loading techniques and Convolutional Neural
+                     Network
+                     using Keras.
+                  </p>
+               </div>
+            </article>
+
+         </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+         <div class="contact__container grid">
+            <div class="contact__data">
+               <h2 class="section__title-2">
+                  <span>
+                     Contact Me
+                  </span>
+               </h2>
+
+               <p class="contact__description-1">
+                  I will read all emails and reply to you. Send me any message, and I'll get back to you.
+               </p>
+               <p class="contact__description-2">
+                  Please include your <b>Name</b> and <b>Email Address</b>. You will only receive a reply to your
+                  message.
+               </p>
+
+               <div class="geometric-box"></div>
+            </div>
+
+            <div class="contact__mail">
+               <h2 class="contact__title">
+                  Send Me a Message.
+               </h2>
+
+               <form action="" class="contact__form" id="contact-form">
+                  <div class="contact__group">
+                     <div class="contact__box">
+                        <input type="text" name="user_name" class="contact__input" id="name" required
+                           placeholder="First Name ">
+                        <label for="name" class="contact__label">First Name</label>
+                     </div>
+
+                     <div class="contact__box">
+                        <input type="email" name="user_email" class="contact__input" id="email" required
+                           placeholder="Email Address ">
+                        <label for="email" class="contact__label">Email Address</label>
+                     </div>
+                  </div>
+
+                  <div class="contact__box">
+                     <input type="text" name="user_subject" class="contact__input" id="subject" required
+                        placeholder="Subject">
+                     <label for="subject" class="contact__label">Subject</label>
+                  </div>
+
+                  <div class="contact__box contact__area">
+                     <textarea name="user_message" id="message" class="contact__input" required
+                        placeholder="Message"></textarea>
+                     <label for="message" class="contact__label">Message</label>
+                  </div>
+
+                  <p class="contact__message" id="contact-message"></p>
+
+                  <button type="submit" class="contact__button button">
+                     <i class="ri-send-plane-line"></i> Send Message
+                  </button>
+               </form>
+            </div>
+
+            <div class="contact__social">
+               <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+               <div class="contact__social-data">
+                  <div>
+                     <p class="contact__social-description-1">
+                        Does not send emails?
+                     </p>
+
+                     <p class="contact__social-description-2">
+                        Write me on my social networks
+                     </p>
+                  </div>
+                  <div class="contact__social-links">
+                     <a href="https://wa.me/966536114086" target="_blank" class="contact__social-link">
+                        <i class="ri-whatsapp-line"></i>
+                     </a>
+
+                     <a href="https://www.linkedin.com/in/ahmedyradwan/" target="_blank" class="contact__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <ul class="footer__links">
+            <li>
+               <a href="#about" class="footer__link">About</a>
+            </li>
+            <li>
+               <a href="#Experience" class="footer__link">Experience</a>
+            </li>
+            <li>
+               <a href="#Publications" class="footer__link">Publications</a>
+            </li>
+            <li>
+               <a href="#Personal_Dev" class="footer__link">Personal Development</a>
+            </li>
+            <li>
+               <a href="#Projects" class="footer__link">Projects</a>
+            </li>
+
+         </ul>
+
+         <span class="footer__copy">
+
+         </span>
+      </div>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="assets/js/scrollreveal.min.js"></script>
+
+   <!--=============== EMAIL JS ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
