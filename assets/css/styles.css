@@ -822,7 +822,10 @@ body.dark-theme{
 .projects__buttons {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   column-gap: 1rem;
+  row-gap: 0.5rem;
+  margin-top: 1rem;
 }
 
 .projects__link {
@@ -842,6 +845,11 @@ body.dark-theme{
 }
 
 .projects__link:hover,
+.projects__link:hover i {
+  color: var(--first-color);
+}
+
+.certifications__link:hover,
 .certifications__link:hover i {
   color: var(--first-color);
 }
