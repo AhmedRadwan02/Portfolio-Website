@@ -849,6 +849,11 @@ body.dark-theme{
   color: var(--first-color);
 }
 
+.projects__link-break {
+  flex-basis: 100%;
+  margin-top: 0.5rem;
+}
+
 .certifications__link:hover,
 .certifications__link:hover i {
   color: var(--first-color);
