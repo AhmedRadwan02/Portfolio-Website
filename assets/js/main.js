@@ -3,16 +3,12 @@ const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
     navClose = document.getElementById('nav-close');
 
-/*===== MENU SHOW ======*/
-/* Validate if constant exists */
 if (navToggle) {
     navToggle.addEventListener('click', () => {
         navMenu.classList.add('show-menu')
     })
 }
 
-/*===== MENU HIDDEN =====*/
-/* Validate if constant exists*/
 if (navClose) {
     navClose.addEventListener('click', () => {
         navMenu.classList.remove('show-menu')
@@ -23,19 +19,18 @@ if (navClose) {
 const navLink = document.querySelectorAll('.nav__link')
 
 const linkAction = () => {
-    const navMenu = document.getElementById('nav-menu')
-    navMenu.classList.remove('show-menu')
+    const menu = document.getElementById('nav-menu')
+    menu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*=============== SHADOW HEADER ===============*/
 const shadowHeader = () => {
     const header = document.getElementById('header')
-
-    this.scrollY >= 50 ? header.classList.add('shadow-header')
+    window.scrollY >= 50
+        ? header.classList.add('shadow-header')
         : header.classList.remove('shadow-header')
 }
-
 window.addEventListener('scroll', shadowHeader)
 
 /*=============== EMAIL JS ===============*/
@@ -59,14 +54,16 @@ const sendEmail = (e) => {
         })
 }
 
-contactForm.addEventListener('submit', sendEmail)
+if (contactForm) {
+    contactForm.addEventListener('submit', sendEmail)
+}
 
 /*=============== SHOW SCROLL UP ===============*/
 const scrollUp = () => {
-    const scrollUp = document.getElementById('scroll-up')
-    this.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
-        : scrollUp.classList.remove('show-scroll')
-
+    const scrollUpEl = document.getElementById('scroll-up')
+    window.scrollY >= 350
+        ? scrollUpEl.classList.add('show-scroll')
+        : scrollUpEl.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
 
@@ -75,12 +72,14 @@ const sections = document.querySelectorAll('section[id]')
 
 const scrollActive = () => {
     const scrollDown = window.scrollY
+
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight,
             sectionTop = current.offsetTop - 58,
             sectionId = current.getAttribute('id'),
             sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
 
+        if (!sectionsClass) return
 
         if (scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight) {
             sectionsClass.classList.add('active-link')
@@ -102,7 +101,7 @@ const selectedIcon = localStorage.getItem('selected-icon')
 const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
 const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'ri-moon-line' : 'ri-sun-line'
 
-if (selectedTheme){
+if (selectedTheme) {
     document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
     themeButton.classList[selectedIcon === 'ri-moon-line' ? 'add' : 'remove'](iconTheme)
 }
@@ -112,19 +111,18 @@ themeButton.addEventListener('click', () => {
     themeButton.classList.toggle(iconTheme)
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
-
 })
+
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 2500,
-    delay:400,
-    reset: true
+    duration: 2200,
+    delay: 300,
+    reset: false
 })
 
-sr.reveal(`.home__perfil, .about__image, .contact__mail`, {origin: 'right'})
+sr.reveal(`.home__perfil, .about__image, .contact__mail`, { origin: 'right' })
 sr.reveal(`.home__name, .home__info,
-    .about__container .section__title-1, .about__info, .contact__social, .contact__data`, {origin: 'left'})
-sr.reveal(`.projects__card, .certifications__card`, {interval:100})
-    
+    .about__container .section__title-1, .about__info, .contact__social, .contact__data`, { origin: 'left' })
+sr.reveal(`.projects__card, .certifications__card, .activity__card`, { interval: 80 })

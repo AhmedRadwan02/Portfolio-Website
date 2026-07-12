@@ -4,6 +4,12 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Ahmed Radwan | Associate Machine Learning Specialist at Vector Institute. Research on trustworthy AI, multimodal LLMs, fairness, and agentic systems.">
+   <meta name="author" content="Ahmed Radwan">
+   <meta property="og:title" content="Ahmed Radwan · Trustworthy & Multimodal AI">
+   <meta property="og:description" content="Associate Machine Learning Specialist at Vector Institute. Multimodal evaluation, responsible AI tooling, and open research.">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://ahmedradwan.me/">
 
    <!--=============== FAVICON ===============-->
    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -14,7 +20,7 @@
    <!--=============== CSS ===============-->
    <link rel="stylesheet" href="assets/css/styles.css">
 
-   <title>Ahmed's Portfolio</title>
+   <title>Ahmed Radwan · Trustworthy & Multimodal AI</title>
 </head>
 
 <body>
@@ -31,38 +37,27 @@
 
             <h3 class="nav__name">Ahmed</h3>
 
-            <ul class="nav__list" style="display: flex; align-items: center; column-gap: 2rem;">
+            <ul class="nav__list">
                <li class="nav__item">
                   <a href="#home" class="nav__link active-link">Home</a>
                </li>
-
                <li class="nav__item">
-                  <a href="#about" class="nav__link">About Me</a>
+                  <a href="#about" class="nav__link">About</a>
                </li>
-
                <li class="nav__item">
                   <a href="#Experience" class="nav__link">Experience</a>
                </li>
-
                <li class="nav__item">
                   <a href="#Publications" class="nav__link">Publications</a>
                </li>
-
-               <!-- New Portfolio link -->
-               <li class="nav__item">
-                  <a href="#Personal_Dev" class="nav__link">Personal Dev</a>
-               </li>
-
-               <!-- New Blog link -->
                <li class="nav__item">
                   <a href="#Projects" class="nav__link">Projects</a>
                </li>
-
                <li class="nav__item">
-                  <a href="#contact" class="nav__link nav__link-button"
-                     style="background-color: var(--black-color); color: var(--white-color); padding: 1.1rem 2rem; margin-left: auto; border-radius: 4px;">
-                     Contact Me
-                  </a>
+                  <a href="#Talks" class="nav__link">Talks</a>
+               </li>
+               <li class="nav__item">
+                  <a href="#contact" class="nav__link nav__link-button">Contact</a>
                </li>
             </ul>
 
@@ -106,27 +101,33 @@
                </div>
 
                <div class="home__social">
-                  <a href="https://github.com/AhmedRadwan02" target="_blank" class="home__social-link">
+                  <a href="https://github.com/AhmedRadwan02" target="_blank" class="home__social-link" aria-label="GitHub">
                      <i class="ri-github-line"></i>
                   </a>
-                  <a href="https://www.linkedin.com/in/ahmedyradwan/" target="_blank" class="home__social-link">
+                  <a href="https://www.linkedin.com/in/ahmedyradwan/" target="_blank" class="home__social-link" aria-label="LinkedIn">
                      <i class="ri-linkedin-box-line"></i>
+                  </a>
+                  <a href="https://scholar.google.ca/citations?user=Fmhn-MQAAAAJ&hl=en" target="_blank" class="home__social-link" aria-label="Google Scholar">
+                     <i class="ri-graduation-cap-line"></i>
                   </a>
                </div>
             </div>
 
             <div class="home__info">
+               <p class="home__role">Associate Machine Learning Specialist · Vector Institute</p>
                <p class="home__description">
-                  <b>Computer Scientist</b>, specializing in AI, machine learning, and data science. I am passionate
-                  about developing innovative projects and continuously expanding my expertise all AI fields without limiting myself.
-                  Never stop learning!
+                  I build <b>trustworthy, reliable multimodal AI</b>: benchmarks, preference alignment,
+                  bias mitigation, and agentic systems that can be evaluated, audited, and shipped.
                </p>
+               <div class="home__actions">
+                  <a href="#Publications" class="button">Publications</a>
+                  <a href="#Projects" class="button button--outline">Selected Work</a>
+               </div>
 
                <a href="#about" class="home__scroll">
                   <div class="home__scroll-box">
                      <i class="ri-arrow-down-s-line"></i>
                   </div>
-
                   <span class="home__scroll-text">Scroll Down</span>
                </a>
             </div>
@@ -154,46 +155,53 @@
             </div>
             <div class="about__info">
                <p class="about__description">
-                  Hello, I'm <b>Ahmed Radwan</b>, a <b>Master's student</b> and <b>Research Assistant</b> in Computer Science at York University. 
-                  My research focuses on <b>Distributed Machine Learning, Domain Adaptation, Real-time Optimization and AI Fairness</b>. 
-                  Previously, I was a <b>Research Intern at KAUST</b>, working on cutting-edge AI solutions. 
-                  Passionate about <b>AI, AR</b>, and their real-world applications, I have over two years of experience implementing AI concepts in practical projects.
+                  I'm <b>Ahmed Radwan</b>, an <b>Associate Machine Learning Specialist</b> on the
+                  <b>AI Engineering</b> team at the <b>Vector Institute</b>, contributing to
+                  <a href="https://aixpert-project.eu/" target="_blank"><b>AIXPERT</b></a>
+                  (Horizon Europe) on explainable, accountable agentic AI.
+                  I hold an <b>MSc in Computer Science</b> from York University (Cum Laude), where I remain a
+                  <b>Research Assistant</b> with Prof. Hina Tabassum.
+               </p>
+               <p class="about__description about__description--secondary">
+                  My work sits at the intersection of <b>trustworthy / reliable AI</b> and
+                  <b>multimodality</b>: evaluating audio-video understanding under fairness constraints,
+                  reducing hallucinations via preference learning, detecting and rewriting linguistic bias,
+                  and making agentic systems more transparent and auditable.
                </p>
 
+               <div class="focus-tags" aria-label="Research focus">
+                  <span class="focus-tag">Trustworthy AI</span>
+                  <span class="focus-tag">Multimodal LLMs</span>
+                  <span class="focus-tag">Fairness & Bias</span>
+                  <span class="focus-tag">Agentic Systems</span>
+                  <span class="focus-tag">Evaluation & Benchmarks</span>
+               </div>
 
                <ul class="about__list">
-               <li class="about__item">
-                  <b>ML/DL Frameworks & LLM Tools:</b> Python, PyTorch, TensorFlow, JAX, Hugging Face Transformers, LangChain, OpenAI API, vLLM, Accelerate, Whisper.
-               </li>
-               <li class="about__item">
-                  <b>Data Science & Analysis:</b> Pandas, NumPy, Scikit-Learn, XGBoost, PySpark, Matplotlib, SQL.
-               </li>
-               <li class="about__item">
-                  <b>AI Concepts & Methods:</b> RAG, Embeddings, Vector Search, Prompt Engineering, Instruction Tuning, Fine-Tuning (LoRA), Self-Supervised Learning, Few-Shot Learning, Distributed Training.
-               </li>
-               <li class="about__item">
-                  <b>MLOps & Production:</b> Quantization, Model Compression, Experiment Tracking, Model Evaluation, Benchmarking, TinyML, MLOps, Docker, Singularity.
-               </li>
-               <li class="about__item">
-                  <b>AI Domains:</b> NLP, LLMs, Multimodal AI, Computer Vision, Video Understanding, Time-Series Analysis, WiFi Sensing, Fairness Analysis.
-               </li>
-               <li class="about__item">
-                  <b>Backend & DevOps:</b> Java, Git, MySQL, Linux, API Development, Dataset Curation.
-               </li>
-
+                  <li class="about__item">
+                     <b>Stack:</b> PyTorch, Hugging Face, vLLM, LangGraph / LangChain, Accelerate, Whisper, Docker.
+                  </li>
+                  <li class="about__item">
+                     <b>Methods:</b> preference alignment (DPO / F-DPO), SSL, domain adaptation, quantization, RAG, fine-tuning (LoRA).
+                  </li>
+                  <li class="about__item">
+                     <b>Domains:</b> multimodal video understanding, LLM safety & factuality, bias detection, Wi-Fi sensing, MLOps.
+                  </li>
                </ul>
                <div class="about__buttons">
                   <a href="/AhmedRadwan_CV.pdf" target="_blank" class="button">
-                     <i class="ri-file-line"></i> My Resume
+                     <i class="ri-file-line"></i> Resume
                   </a>
                   <a href="#contact" class="button">
-                     <i class="ri-send-plane-line"></i> Contact Me
+                     <i class="ri-send-plane-line"></i> Contact
                   </a>
-                  <a href="https://www.linkedin.com/in/ahmedyradwan/" target="_blank" class="button__ghost">
+                  <a href="https://scholar.google.ca/citations?user=Fmhn-MQAAAAJ&hl=en" target="_blank" class="button__ghost" aria-label="Google Scholar">
+                     <i class="ri-graduation-cap-line"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ahmedyradwan/" target="_blank" class="button__ghost" aria-label="LinkedIn">
                      <i class="ri-linkedin-box-line"></i>
                   </a>
                </div>
-
             </div>
          </div>
       </section>
@@ -209,22 +217,23 @@
             
             <article class="certifications__card">
                <div class="certifications__content">
-                  <h2 class="certifications__title">Applied Machine Learning (Intern)</h2>
+                  <h2 class="certifications__title">Associate Machine Learning Specialist</h2>
                   <h3 class="projects__subtitle"> Vector Institute, AI Engineering
                   </h3>
                   <p class="certifications__description" style="text-align: justify;">
-                     At the Vector Institute, under the supervision of Dr. Shaina Raza, I first conducted a 
-                     survey of interpretability and explainability techniques across the different layers of 
-                     agentic AI systems, with a focus on responsible multi-agent design. Building on that foundation, 
-                     I shifted to developing a fairness benchmarking setup for audio-visual (multimodal) agents, 
-                     exploring how to evaluate and mitigate bias in real-world multimodal understanding pipelines. 
-                     This work tied into Vector’s broader AIXpert efforts on transparent, reproducible, and trustworthy AI.
+                     On Vector’s AI Engineering team (with Dr. Shaina Raza), I work on multimodal evaluation, responsible AI tooling,
+                     and production-facing ML systems. This includes leading <b>SONIC-O1</b> (benchmark, pipeline, and multi-agent system)
+                     and contributing to <b>UnBias-Plus</b>, Vector’s open-source bias detection and rewriting tool.
+                     My work is part of Vector’s contribution to the
+                     <a href="https://aixpert-project.eu/" target="_blank"><b>AIXPERT</b></a> Horizon Europe consortium
+                     (17 partners) building an agentic, multi-layer GenAI backbone for explainable, accountable, and transparent AI.
                      <br>
                      <br>
-                     Featured work: <b>SONIC-O1</b> — dataset, leaderboard, and pipeline:
-                     <a href="https://huggingface.co/datasets/vector-institute/sonic-o1" target="_blank">Dataset</a>,
-                     <a href="https://huggingface.co/spaces/vector-institute/sonic-o1-leaderboard" target="_blank">Leaderboard</a>,
-                     <a href="https://github.com/VectorInstitute/SONIC-O1" target="_blank">GitHub</a>.
+                     Featured work:
+                     <a href="https://vectorinstitute.github.io/sonic-o1/" target="_blank">SONIC-O1</a>,
+                     <a href="https://github.com/VectorInstitute/sonic-o1-agent" target="_blank">Multi-Agent</a>,
+                     <a href="https://unbias-plus.vectorinstitute.ai/" target="_blank">UnBias-Plus</a>,
+                     <a href="https://aixpert-project.eu/" target="_blank">AIXPERT</a>.
                   </p>
                </div>
             </article>
@@ -233,15 +242,16 @@
             
             <article class="certifications__card">
                <div class="certifications__content">
-                  <h2 class="certifications__title"> Research Assistant</h2>
-                  <h3 class="projects__subtitle">York University, LE-NGWN Lab
+                  <h2 class="certifications__title">Research Assistant</h2>
+                  <h3 class="projects__subtitle">York University, LE-NGWN Lab (current)
                   </h3>
                   <p class="certifications__description" style="text-align: justify;">
-                     As a Research Assistant under Prof. Hina Tabassum at the LE-NGWN Lab, I am working on 
-                     self-supervised learning techniques for Wi-Fi sensing and developing diffusion models for 
-                     RF coverage map reconstruction. This involves designing and implementing machine learning 
-                     algorithms to enhance wireless sensing capabilities and accurately reconstruct RF coverage maps, 
-                     thereby improving network performance and reliability.
+                     Research Assistant with Prof. Hina Tabassum at LE-NGWN Lab (I also completed my MSc there, Cum Laude).
+                     Current work covers self-supervised learning for Wi-Fi sensing, source-free domain adaptation for multi-user CSI,
+                     and AI-driven CSI compression/prediction for next-generation wireless systems
+                     (IEEE TNNLS, IEEE IoT Journal, IEEE COMST).
+                     Previously supported the department as a <b>Graduate Teaching Assistant</b> and as a member of the
+                     <b>T&amp;P Adjudication Committee</b>.
                   </p>
                </div>
             </article>
@@ -333,21 +343,62 @@
       <!--==================== PUBLICATIONS ====================-->
       <section class="projects section" id="Publications">
          <h2 class="section__title-2">
-            <span>
-               Publications
-            </span>
+            <span>Publications</span>
          </h2>
+         <p class="section__lead container">Peer-reviewed venues and preprints: multimodal evaluation, trustworthy AI, and wireless sensing.</p>
          <div class="projects__container container grid">
 
-            <!--======================== Paper -1 ============================-->
+            <!-- IEEE TNNLS (2026) -->
             <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
                <div class="projects__image">
-                  <a href="https://arxiv.org/abs/2601.21666" target="_blank" class="projects__button button"
-                     style="position: absolute; right: 0rem; bottom: -0.5rem; padding: 1rem;">
+                  <a href="https://ieeexplore.ieee.org/document/11599644" target="_blank" class="projects__button button">
                      <i class="ri-arrow-right-up-line"></i>
                   </a>
                </div>
+               <div class="projects__content">
+                  <h2 class="certifications__title">Contrastive Predictive Coding with Compression for Enhanced Channel State Feedback in Wireless Networks</h2>
+                  <h3 class="projects__subtitle">IEEE TNNLS (2026)</h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     <b>Ahmed Y. Radwan</b>, Fahad Syed Muhammad, Matthew Baker, Hina Tabassum
+                     <br>
+                     <br>
+                     First author of a research paper enhancing CSI feedback in 3GPP’s next release using AI-driven compression.
+                     We propose two CPC-based architectures to tackle data aging and channel variations, achieving
+                     superior SGCS performance on industry datasets (Nokia, Oppo, CATT). Additionally,
+                     we explore GRU pruning for real-time deployment and discuss future directions like split learning
+                     and adaptive online strategies.
+                  </p>
+               </div>
+            </article>
 
+            <!-- IEEE IoT Journal (2026) -->
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__image">
+                  <a href="https://ieeexplore.ieee.org/abstract/document/11489060" target="_blank" class="projects__button button">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+               <div class="projects__content">
+                  <h2 class="certifications__title">MU-SHOT-Fi: Self-Supervised Multi-User Wi-Fi Sensing with Source-free Unsupervised Domain Adaptation</h2>
+                  <h3 class="projects__subtitle">IEEE IoT Journal (2026)</h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     <b>Ahmed Y. Radwan</b>, Hina Tabassum
+                     <br>
+                     <br>
+                     First author of MU-SHOT-Fi, a source-free unsupervised domain adaptation framework for single- and multi-user Wi-Fi sensing.
+                     We introduce permutation-invariant set prediction with occupancy-weighted information maximization and rotation-based spatial self-supervision,
+                     recovering multi-user activity recognition under large domain shifts on WiMANS and Widar 3.0.
+                  </p>
+               </div>
+            </article>
+
+            <!-- SONIC-O1 Preprint (2026) -->
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__image">
+                  <a href="https://arxiv.org/abs/2601.21666" target="_blank" class="projects__button button">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
                <div class="projects__content">
                   <h2 class="certifications__title">SONIC-O1: A Real-World Benchmark for Evaluating Multimodal Large Language Models on Audio-Video Understanding</h2>
                   <h3 class="projects__subtitle">Preprint (2026)</h3>
@@ -355,49 +406,132 @@
                      <b>Ahmed Y. Radwan</b>, Christos Emmanouilidis, Hina Tabassum, Deval Pandya, Shaina Raza
                      <br>
                      <br>
-                     First author of SONIC-O1, a fully human-verified real-world audio–video benchmark with 4,958 
-                     annotations across 13 conversational domains. 
-
-                     We evaluate multimodal models on video summarization, evidence-grounded QA, and temporal 
-                     event localization, and release an extensible evaluation suite to support reproducible benchmarking and robustness analysis.
+                     First author of SONIC-O1, a fully human-verified real-world audio-video benchmark with 4,958
+                     annotations across 13 conversational domains.
+                     We evaluate multimodal models on video summarization, evidence-grounded QA, and temporal
+                     event localization, and release an extensible evaluation suite plus a companion multi-agent system
+                     for evidence-based reasoning and verification.
                   </p>
                </div>
             </article>
 
-            <!-- Sustainable Open-Source AI / DIA (2026) -->
+            <!-- ICML 2026 Spotlight -->
             <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
                <div class="projects__image">
-                  <a href="https://arxiv.org/abs/2601.21632" target="_blank" class="projects__button button"
-                     style="position: absolute; right: 0rem; bottom: -0.5rem; padding: 1rem;">
+                  <a href="https://arxiv.org/abs/2601.21632" target="_blank" class="projects__button button">
                      <i class="ri-arrow-right-up-line"></i>
                   </a>
                </div>
                <div class="projects__content">
                   <h2 class="certifications__title">Sustainable Open-Source AI Requires Tracking the Cumulative Footprint of Derivatives</h2>
-                  <h3 class="projects__subtitle">Preprint (2026)</h3>
+                  <h3 class="projects__subtitle">ICML 2026 Spotlight</h3>
                   <p class="certifications__description" style="text-align: justify;">
-                     Shaina Raza, Iuliia Eyriay, <b>Ahmed Y. Radwan</b>, Nate Lesperance, Deval Pandya, Sedef Akinli Kocak, Graham W. Taylor
+                     Shaina Raza, Iuliia Zarubiieva, <b>Ahmed Y. Radwan</b>, Nathaniel Lesperance, Deval Pandya, Sedef Akinli Kocak, Graham W. Taylor
                      <br><br>
-                     Co-author. We argue that compute efficiency alone is insufficient for sustainability in open-source AI: lower per-run costs can increase aggregate environmental footprint unless impacts are measurable and comparable across derivative lineages. We propose Data and Impact Accounting (DIA), a lightweight transparency layer that standardizes carbon and water reporting metadata, integrates measurement into training and inference pipelines, and aggregates reports through public dashboards to summarize cumulative impacts across releases and derivatives.
+                     Co-author of an ICML position paper arguing that compute efficiency alone is insufficient for open-source AI sustainability:
+                     lower per-run costs can raise aggregate footprint across fine-tunes, adapters, and forks. We propose Data and Impact Accounting (DIA),
+                     a lightweight transparency layer for carbon/water metadata, pipeline measurement, and public dashboards over model lineages.
                   </p>
                </div>
             </article>
 
-            <!-- Reducing Hallucinations (2026) -->
+            <!-- ACL 2026 Findings -->
             <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
                <div class="projects__image">
-                  <a href="https://arxiv.org/pdf/2601.03027" target="_blank" class="projects__button button"
-                     style="position: absolute; right: 0rem; bottom: -0.5rem; padding: 1rem;">
+                  <a href="https://aclanthology.org/2026.findings-acl.1968/" target="_blank" class="projects__button button">
                      <i class="ri-arrow-right-up-line"></i>
                   </a>
                </div>
                <div class="projects__content">
                   <h2 class="certifications__title">Reducing Hallucinations in LLMs via Factuality-Aware Preference Learning</h2>
-                  <h3 class="projects__subtitle">Preprint (2026)</h3>
+                  <h3 class="projects__subtitle">ACL 2026 Findings</h3>
                   <p class="certifications__description" style="text-align: justify;">
                      Sindhuja Chaduvula, <b>Ahmed Y. Radwan</b>, Azib Farooq, Yani Ioannou, Shaina Raza
                      <br><br>
-                     Co-author of a preference-learning method (F-DPO) that targets factuality directly, improving factuality scores while reducing hallucination rates across multiple open-weight LLMs.
+                     Co-author of F-DPO, a factuality-aware extension of DPO that uses binary factuality labels with label flipping and a factuality margin.
+                     Across seven open-weight LLMs (1B-14B), it reduces hallucination rates (e.g., 5× on Qwen3-8B) and improves TruthfulQA without a reward model or multi-stage training.
+                  </p>
+               </div>
+            </article>
+
+            <!-- UnBias-Plus (2026) -->
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__image">
+                  <a href="https://arxiv.org/abs/2606.23412" target="_blank" class="projects__button button">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+               <div class="projects__content">
+                  <h2 class="certifications__title">UnBias-Plus: Detect, Explain, and Rewrite Bias</h2>
+                  <h3 class="projects__subtitle">Preprint (2026)</h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     <b>Ahmed Y. Radwan</b>, Ahmed ElKady, Sindhuja Chaduvula, Mohamed Hafez, Amrit Krishnan, Shaina Raza
+                     <br><br>
+                     First author of Vector’s open-source Safe AI toolkit for segment-level bias detection, span localization,
+                     neutral rewriting, and decision rationales, released publicly with a live browser demo, Python/CLI/REST APIs,
+                     and coverage in Vector’s launch announcement.
+                  </p>
+               </div>
+            </article>
+
+            <!-- From Features to Actions (2026) -->
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__image">
+                  <a href="https://arxiv.org/abs/2602.06841" target="_blank" class="projects__button button">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+               <div class="projects__content">
+                  <h2 class="certifications__title">From Features to Actions: Explainability in Traditional and Agentic AI Systems</h2>
+                  <h3 class="projects__subtitle">Future Technologies Conference (FTC) 2026</h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     Sindhuja Chaduvula, Jessee Ho, Kina Kim, Aravind Narayanan, <b>Ahmed Y. Radwan</b>, Mahshid Alinoori, Muskan Garg, Dhanesh Ramachandram, Shaina Raza
+                     <br><br>
+                     Co-author. We show attribution methods (e.g., SHAP/LIME) work for static predictions but fail to diagnose agentic trajectory failures,
+                     and motivate trace-based, rubric-grounded explainability, finding state-tracking inconsistency 2.7× more common in failed runs.
+                  </p>
+               </div>
+            </article>
+
+            <!-- Transparency in Agentic AI (2026) -->
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__image">
+                  <a href="https://doi.org/10.31224/6451" target="_blank" class="projects__button button">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+               <div class="projects__content">
+                  <h2 class="certifications__title">Transparency in Agentic AI: A Survey of Interpretability, Explainability, and Governance</h2>
+                  <h3 class="projects__subtitle">EngrXiv Preprint (2026)</h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     Shaina Raza, <b>Ahmed Y. Radwan</b>, Sindhuja Chaduvula, Mahshid Alinoori, Christos Emmanouilidis
+                     <br><br>
+                     Co-author of a survey connecting interpretability, explainability, and governance for LLM-based agents.
+                     We propose a five-axis taxonomy and the Minimal Explanation Packet (MEP) for audit-ready trajectory-level transparency evidence.
+                  </p>
+               </div>
+            </article>
+
+            <!-- IEEE COMST (2025) -->
+            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+               <div class="projects__image">
+                  <a href="https://ieeexplore.ieee.org/abstract/document/11071965?casa_token=W4ae4_JY5HoAAAAA:NLQsbJb2GFtk4cNVoDCr-Ysx5OyRD53OFbIjxxnvwE3nT8IpRMfykyOJkC9rK_0QPYkMiD3J2w" target="_blank" class="projects__button button">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+               <div class="projects__content">
+                  <h2 class="certifications__title"> A Tutorial-cum-Survey on Self-Supervised Learning for Wi-Fi Sensing: Trends, Challenges, and Outlook</h2>
+                  <h3 class="projects__subtitle">IEEE COMST (2025)</h3>
+                  <p class="certifications__description" style="text-align: justify;">
+                     <b>Ahmed Y. Radwan</b>, Mustafa Yildirim, Navid Hasanzadeh, Hina Tabassum, and Shahrokh Valaee
+                     <br>
+                     <br>
+                      First author of a comprehensive survey on Wi-Fi sensing, where we explore its evolution from communication routers
+                     to sensing devices. Our work delves into channel state information (CSI) extraction, dataset comparisons,
+                     and the impact of mobile objects on CSI. We discuss preprocessing techniques for feature extraction,
+                     highlight the role of machine learning (ML) and self-supervised learning (SSL) in Wi-Fi sensing,
+                     and provide a quantitative analysis of contrastive and non-contrastive learning approaches.
+                     The paper concludes with insights into emerging technologies and future research opportunities in this field
                   </p>
                </div>
             </article>
@@ -405,8 +539,7 @@
             <!-- Humanibench (2025) -->
             <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
                <div class="projects__image">
-                  <a href="https://arxiv.org/pdf/2505.11454" target="_blank" class="projects__button button"
-                     style="position: absolute; right: 0rem; bottom: -0.5rem; padding: 1rem;">
+                  <a href="https://arxiv.org/pdf/2505.11454" target="_blank" class="projects__button button">
                      <i class="ri-arrow-right-up-line"></i>
                   </a>
                </div>
@@ -421,60 +554,13 @@
                </div>
             </article>
 
-            <!-- CPC Channel State (Soon) -->
-            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
-               <div class="projects__image"></div>
-               <div class="projects__content">
-                  <h2 class="certifications__title">Contrastive Predictive Coding with Compression for Enhanced 
-                     Channel State Feedback in Wireless Networks</h2>
-                  <h3 class="projects__subtitle">Soon</h3>
-                  <p class="certifications__description" style="text-align: justify;">
-                     <b>Ahmed Y. Radwan</b>, Hina Tabassum, Fahad Syed Muhammad, Matthew Baker
-                     <br>
-                     <br>
-               First author of a research paper enhancing CSI feedback in 3GPP’s next release using AI-driven compression. 
-                     We propose two CPC-based architectures to tackle data aging and channel variations, achieving 
-                     superior SGCS performance on industry datasets (Nokia, Oppo, CATT). Additionally, 
-                     we explore GRU pruning for real-time deployment and discuss future directions like split learning 
-                     and adaptive online strategies.
-                  </p>
-               </div>
-            </article>
-         <!--======================== Paper 0 ============================-->
+            <!-- EuCNC 2025 -->
             <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
                <div class="projects__image">
-                  <a href="https://ieeexplore.ieee.org/abstract/document/11071965?casa_token=W4ae4_JY5HoAAAAA:NLQsbJb2GFtk4cNVoDCr-Ysx5OyRD53OFbIjxxnvwE3nT8IpRMfykyOJkC9rK_0QPYkMiD3J2w" target="_blank" class="projects__button button"
-                     style="position: absolute; right: 0rem; bottom: -0.5rem; padding: 1rem;">
+                  <a href="https://arxiv.org/pdf/2411.06291" target="_blank" class="projects__button button">
                      <i class="ri-arrow-right-up-line"></i>
                   </a>
                </div>
-
-               <div class="projects__content">
-                  <h2 class="certifications__title"> A Tutorial-cum-Survey on Self-Supervised Learning for Wi-Fi Sensing: Trends, Challenges, and Outlook</h2>
-                  <h3 class="projects__subtitle">IEEE COMST (2025)</h3>
-                  <p class="certifications__description" style="text-align: justify;">
-                     <b>Ahmed Y. Radwan</b>, Mustafa Yildirim, Navid Hasanzadeh, Hina Tabassum, and Shahrokh Valaee
-                     <br>
-                     <br>
-                      First author of a comprehensive survey on Wi-Fi sensing, where we explore its evolution from communication routers 
-                     to sensing devices. Our work delves into channel state information (CSI) extraction, dataset comparisons, 
-                     and the impact of mobile objects on CSI. We discuss preprocessing techniques for feature extraction, 
-                     highlight the role of machine learning (ML) and self-supervised learning (SSL) in Wi-Fi sensing, 
-                     and provide a quantitative analysis of contrastive and non-contrastive learning approaches. 
-                     The paper concludes with insights into emerging technologies and future research opportunities in this field
-                  </p>
-               </div>
-            </article>
-            
-                        <!--======================== Paper 1 ============================-->
-            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
-               <div class="projects__image">
-                  <a href="https://arxiv.org/pdf/2411.06291" target="_blank" class="projects__button button"
-                     style="position: absolute; right: 0rem; bottom: -0.5rem; padding: 1rem;">
-                     <i class="ri-arrow-right-up-line"></i>
-                  </a>
-               </div>
-
                <div class="projects__content">
                   <h2 class="certifications__title">TinyML NLP Scheme for Semantic Wireless Sentiment Classification with Privacy Preservation</h2>
                   <h3 class="projects__subtitle">EuCNC & 6G Summit 2025</h3>
@@ -482,21 +568,20 @@
                      <b>Ahmed Y. Radwan</b>, Mohammad Shehab, Mohamed-Slim Alouini
                      <br>
                      <br>
-                  First author of a study on privacy-preserving, energy-efficient NLP for edge devices. We propose 
-                     semantic split learning (SL) as a TinyML framework, outperforming FL and CL in 
+                  First author of a study on privacy-preserving, energy-efficient NLP for edge devices. We propose
+                     semantic split learning (SL) as a TinyML framework, outperforming FL and CL in
                      energy efficiency and privacy, with significantly higher reconstruction error and lower CO2 emissions.
                   </p>
                </div>
             </article>
-            <!--======================== Paper 2 ============================-->
+
+            <!-- HCI International 2024 -->
             <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
                <div class="projects__image">
-                  <a href="https://arxiv.org/pdf/2403.01575" target="_blank" class="projects__button button"
-                     style="position: absolute; right: 0rem; bottom: -0.5rem; padding: 1rem;">
+                  <a href="https://arxiv.org/pdf/2403.01575" target="_blank" class="projects__button button">
                      <i class="ri-arrow-right-up-line"></i>
                   </a>
                </div>
-
                <div class="projects__content">
                   <h2 class="certifications__title"> SARD: A Human-AI Collaborative Story Generation</h2>
                   <h3 class="projects__subtitle">HCI International 2024</h3>
@@ -504,22 +589,21 @@
                      <b>Ahmed Y. Radwan</b>, Khaled M. Alasmari, Omar A. Abdulbagi, Emad A. Alghamdi
                      <br>
                      <br>
-                     First author of SARD, a drag-and-drop interface for multi-chapter story generation using LLMs. 
-                     Our study shows that while node-based visualization aids mental modeling, it adds cognitive load as 
-                     stories grow. We also find AI-generated stories lack lexical diversity, highlighting patterns 
+                     First author of SARD, a drag-and-drop interface for multi-chapter story generation using LLMs.
+                     Our study shows that while node-based visualization aids mental modeling, it adds cognitive load as
+                     stories grow. We also find AI-generated stories lack lexical diversity, highlighting patterns
                      and limitations for future human-AI co-writing tools.
                   </p>
                </div>
             </article>
-            <!--======================== Paper 3 ============================-->
+
+            <!-- Preprint (2024) -->
             <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
                <div class="projects__image">
-                  <a href="https://arxiv.org/pdf/2402.00910" target="_blank" class="projects__button button"
-                     style="position: absolute; right: 0rem; bottom: -0.5rem; padding: 1rem;">
+                  <a href="https://arxiv.org/pdf/2402.00910" target="_blank" class="projects__button button">
                      <i class="ri-arrow-right-up-line"></i>
                   </a>
                </div>
-            
                <div class="projects__content">
                   <h2 class="certifications__title">Addressing Bias Through Ensemble Learning and Regularized Fine-Tuning</h2>
                   <h3 class="projects__subtitle">Preprint (2024)</h3>
@@ -535,237 +619,216 @@
             </article>
          </div>
       </section>
-      <!--==================== PERSONAL DEV ====================-->
-      <section class="certifications section" id="Personal_Dev">
-         <h2 class="section__title-2">
-            <span>
-               Personal Development
-            </span>
-         </h2>
-         <div class="projects__container container grid">
-            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
-               <div class="projects__content">
-                  <h2 class="certifications__title"> Courses</h2>
-                  <h3 class="projects__subtitle">KAUST TinyML Course</h3>
-                  <br>
-                  <a href="https://drive.google.com/file/d/1kOeNijqiLIStLqa5FzvXveAALVxns6Bf/view" target="_blank">
-                     <h3 class="projects__subtitle">KAUST-Sdaia AI Summer Program</h3>
-                  </a>
-                  <br>
-
-                  <a href="https://www.coursera.org/account/accomplishments/specialization/YLJ8UC55XP9A?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"
-                     target="_blank">
-                     <h3 class="projects__subtitle">Mathematics for Machine Learning and Data Science</h3>
-                  </a>
-                  <br>
-
-                  <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/RNR7STK2K6P3"
-                     target="_blank">
-                     <h3 class="projects__subtitle">Machine Learning Specialization</h3>
-                  </a>
-                  <br>
-
-                  <a href="https://drive.google.com/file/d/1Do1PQ2uxFvk9_3-kfBH-vN9iBI5OJPKI/view" target="_blank">
-                     <h3 class="projects__subtitle">Advanced AI</h3>
-                  </a>
-                  <br>
-
-                  <a href="https://drive.google.com/file/d/1_ArFHeXOPnykfx6zY7hOpFcBH21W1PRJ/view" target="_blank">
-                     <h3 class="projects__subtitle">Introduction to AI</h3>
-                  </a>
-                  <br>
-
-               </div>
-            </article>
-
-            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
-               <div class="projects__content">
-                  <h2 class="certifications__title"> Competitions</h2>
-                  <h3 class="projects__subtitle">SUAS Competition 2024</h3>
-                  <br>
-                  <a href="https://www.linkedin.com/posts/adtc-2024_adtc2024-automationconference-digitaltransformation-activity-7190633158474670081-6dje/?utm_source=share&utm_medium=member_desktop"
-                     target="_blank">
-                     <h3 class="projects__subtitle">1st Place Winner for 2024 Student Games Under ISA and Sponsored By
-                        Aramco: GreenSight AI.</h3>
-                  </a> <br>
-                  <h3 class="projects__subtitle">1st Place Winner at 'Sehah Thon 2': Enjad</h3>
-                  <br>
-                  <h3 class="projects__subtitle">Saudi Space App Hackathon</h3>
-                  <br>
-                  <h3 class="projects__subtitle">AI Hackathon by Kaust</h3>
-                  <br>
-                  <h3 class="projects__subtitle">Programming Jam 4.0 & 6.0</h3>
-                  <br>
-
-               </div>
-            </article>
-
-            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
-               <div class="projects__content">
-                  <h2 class="certifications__title"> Volunteer</h2>
-                  <a href="https://drive.google.com/file/d/1jdb27RQQ79JBX48l3W1qyYk9M43XyMCd/view" target="_blank">
-                     <h3 class="projects__subtitle">Coordinating WAICY 2023</h3>
-                  </a>
-                  <br>
-                  <a href="https://drive.google.com/file/d/1WaoGLCaNhSFvvtjKnS4DfueRWiFl0ziW/view" target="_blank">
-                     <h3 class="projects__subtitle">Teaching Computer Vision Bootcamp</h3>
-                  </a>
-                  <br>
-
-                  <a href="https://drive.google.com/file/d/11tZ4iF1tQXhlFJyg-YTljojfJGmlaIc6/view" target="_blank">
-                     <h3 class="projects__subtitle">Teaching Introduction to AI Bootcamp</h3>
-                  </a>
-                  <br>
-                  <h3 class="projects__subtitle">Teaching TinyML Bootcamp</h3>
-                  <br>
-
-                  <h3 class="projects__subtitle">Mentor at TransAI Competition in Engineering Day</h3>
-                  <br>
-                  <h3 class="projects__subtitle">Python Tutor</h3>
-                  <br>
-
-               </div>
-            </article>
-         </div>
-      </section>
       <!--==================== PROJECTS ====================-->
       <section class="projects section" id="Projects">
          <h2 class="section__title-2">
-            <span>
-               Projects
-            </span>
+            <span>Projects</span>
          </h2>
+         <p class="section__lead container">Open systems and benchmarks in trustworthy multimodal AI: demos, code, and papers.</p>
          <div class="projects__container container grid">
-            <!--======================== Featured Project ============================-->
-            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+            <!--======================== Featured: UnBias-Plus ============================-->
+            <article class="projects__card projects__card--featured">
                <div class="projects__image">
-                  <img src="assets/img/project-sonico1.png" alt="SONIC-O1" class="projects__img" width="200" height="200"
-                     style="display: block; margin: 0 auto; margin-left: 50px;">
-                  <a href="https://vectorinstitute.github.io/sonic-o1/" target="_blank" class="projects__button button">
+                  <span class="projects__badge">Featured · Live</span>
+                  <img src="assets/img/UnBiaslogo.png" alt="UnBias-Plus logo" class="projects__img">
+                  <a href="https://unbias-plus.vectorinstitute.ai/" target="_blank" class="projects__button button" aria-label="Open UnBias-Plus demo">
+                     <i class="ri-arrow-right-up-line"></i>
+                  </a>
+               </div>
+
+               <div class="projects__content">
+                  <h2 class="projects__title">UnBias-Plus (Vector Institute)</h2>
+                  <p class="projects__description">
+                     Open-source Safe AI tool that <b>detects, explains, and rewrites</b> biased language
+                     in written content and AI training data. Shipped with Vector AI Engineering from research pipeline
+                     to production (demo, packaging, evaluation, docs).
+                  </p>
+
+                  <div class="projects__buttons">
+                     <a href="https://unbias-plus.vectorinstitute.ai/" target="_blank" class="projects__link">
+                        <i class="ri-play-circle-line"></i><span>Live Demo</span>
+                     </a>
+                     <a href="https://github.com/VectorInstitute/unbias-plus" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i><span>GitHub</span>
+                     </a>
+                     <a href="https://arxiv.org/abs/2606.23412" target="_blank" class="projects__link">
+                        <i class="ri-article-line"></i><span>Paper</span>
+                     </a>
+                     <a href="https://pypi.org/project/unbias-plus/" target="_blank" class="projects__link">
+                        <i class="ri-box-3-line"></i><span>PyPI</span>
+                     </a>
+                     <a href="https://vectorinstitute.ai/vector-institute-releases-unbias-plus-a-free-open-source-ai-tool-to-detect-and-rewrite-bias-in-text/" target="_blank" class="projects__link">
+                        <i class="ri-newspaper-line"></i><span>News</span>
+                     </a>
+                  </div>
+                  <p class="projects__note">Presented at AI4Good @ Vector</p>
+               </div>
+            </article>
+
+            <!--======================== Featured: SONIC-O1 ============================-->
+            <article class="projects__card projects__card--featured">
+               <div class="projects__image">
+                  <span class="projects__badge">Featured · Benchmark</span>
+                  <img src="assets/img/project-sonico1.png" alt="SONIC-O1" class="projects__img">
+                  <a href="https://vectorinstitute.github.io/sonic-o1/" target="_blank" class="projects__button button" aria-label="Open SONIC-O1 website">
                      <i class="ri-arrow-right-up-line"></i>
                   </a>
                </div>
 
                <div class="projects__content">
                   <h2 class="projects__title">SONIC-O1 (Vector Institute)</h2>
-                  <p class="certifications__description" style="text-align: justify;">
-                     A real-world benchmark + end-to-end pipeline for <b>omnimodal</b> video understanding (audio + video + social context),
-                     with <b>systematic fairness analysis</b> across demographic groups.
+                  <p class="projects__description">
+                     Real-world <b>omnimodal</b> benchmark for audio-video understanding with
+                     <b>fairness analysis</b> across demographic groups, plus a companion
+                     <b>multi-agent</b> system (LangGraph + Qwen3-Omni) for evidence-grounded reasoning.
                   </p>
 
                   <div class="projects__buttons">
                      <a href="https://vectorinstitute.github.io/sonic-o1/" target="_blank" class="projects__link">
-                        <i class="ri-global-line"></i>
-                        <span>Website</span>
+                        <i class="ri-global-line"></i><span>Website</span>
                      </a>
                      <a href="https://huggingface.co/datasets/vector-institute/sonic-o1" target="_blank" class="projects__link">
-                        <i class="ri-database-2-line"></i>
-                        <span>Dataset</span>
+                        <i class="ri-database-2-line"></i><span>Dataset</span>
                      </a>
                      <a href="https://huggingface.co/spaces/vector-institute/sonic-o1-leaderboard" target="_blank" class="projects__link">
-                        <i class="ri-bar-chart-2-line"></i>
-                        <span>Leaderboard</span>
+                        <i class="ri-bar-chart-2-line"></i><span>Leaderboard</span>
                      </a>
-                     <a href="https://github.com/VectorInstitute/SONIC-O1" target="_blank" class="projects__link projects__link-break">
-                        <i class="ri-code-s-slash-line"></i>
-                        <span>Pipeline</span>
+                     <a href="https://github.com/VectorInstitute/SONIC-O1" target="_blank" class="projects__link">
+                        <i class="ri-code-s-slash-line"></i><span>Pipeline</span>
+                     </a>
+                     <a href="https://github.com/VectorInstitute/sonic-o1-agent" target="_blank" class="projects__link">
+                        <i class="ri-robot-2-line"></i><span>Multi-Agent</span>
+                     </a>
+                     <a href="https://www.torontomachinelearning.com/presenter/ahmed-radwan/" target="_blank" class="projects__link">
+                        <i class="ri-mic-line"></i><span>TMLS Talk</span>
                      </a>
                   </div>
                </div>
             </article>
 
-            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+            <article class="projects__card">
                <div class="projects__image">
-                  <img src="assets/img/project-1.png" alt="Project 1" class="projects__img" width="200" height="200"
-                     style="display: block; margin: 0 auto; margin-left: 50px;">
+                  <img src="assets/img/project-1.png" alt="SARD" class="projects__img">
                   <a href="https://drive.google.com/file/d/1MjEGwWkkJZ_JNMbrKkNMdt8ixMM5weis/view" target="_blank"
-                     class="projects__button button">
+                     class="projects__button button" aria-label="Open SARD">
                      <i class="ri-arrow-right-up-line"></i>
                   </a>
                </div>
-
                <div class="projects__content">
                   <h2 class="projects__title">SARD: Images-Inspired Narratives</h2>
-                  <p class="certifications__description" style="text-align: justify;">
-                     Developed a novel visual interface for AI-assisted story generation, leading design,
-                     implementation, and user studies.
+                  <p class="projects__description">
+                     Visual interface for human-AI collaborative story generation: design, implementation, and user studies (HCI International 2024).
                   </p>
                </div>
             </article>
 
-            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+            <article class="projects__card">
                <div class="projects__image">
-                  <img src="assets/img/project-2.png" alt="Picture 2" class="projects__img" width="200" height="200"
-                     style="display: block; margin: 0 auto; margin-left: 50px;">
-
+                  <img src="assets/img/project-2.png" alt="Bias mitigation framework" class="projects__img">
                   <a href="https://drive.google.com/file/d/1hF1ToNqu8ClunjITZhUdby3ox6dN_L3o/view" target="_blank"
-                     class="projects__button button">
+                     class="projects__button button" aria-label="Open bias framework">
                      <i class="ri-arrow-right-up-line"></i>
                   </a>
                </div>
-
                <div class="projects__content">
-                  <h2 class="projects__title">Addressing Bias Framework in DL models</h2>
-                  <p class="certifications__description" style="text-align: justify;">
-                     Co-authored preprint proposing a novel approach to reduce bias in AI models with
-                     limited data. Method combines fine-tuning, ensemble learning, and knowledge
-                     distillation, demonstrating improved fairness on CIFAR-10 and HAM10000 datasets.
+                  <h2 class="projects__title">Bias Mitigation via Ensembles</h2>
+                  <p class="projects__description">
+                     Fine-tuning, ensemble learning, and knowledge distillation to improve fairness under limited data (CIFAR-10, HAM10000).
                   </p>
                </div>
             </article>
-            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+
+            <article class="projects__card">
                <div class="projects__image">
-                  <img src="assets/img/project-3.png" alt="Picture 3" class="projects__img" width="200" height="200"
-                     style="display: block; margin: 0 auto; margin-left: 50px;">
+                  <img src="assets/img/project-3.png" alt="Skin cancer classification" class="projects__img">
                   <a href="https://github.com/AhmedRadwan02/SkinCancerClassification" target="_blank"
-                     class="projects__button button">
+                     class="projects__button button" aria-label="Open GitHub repo">
                      <i class="ri-arrow-right-up-line"></i>
                   </a>
                </div>
                <div class="projects__content">
                   <h2 class="projects__title">Skin Cancer Classification</h2>
-                  <p class="certifications__description" style="text-align: justify;">
-                     Developed a model for image classification using data loading techniques and Convolutional Neural
-                     Network using Keras.
+                  <p class="projects__description">
+                     CNN-based medical image classification pipeline with careful data loading and evaluation.
                   </p>
                </div>
             </article>
-            
-            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+
+            <article class="projects__card">
                <div class="projects__image">
-                  <img src="assets/img/project-4.png" alt="Picture 4" class="projects__img" width="200" height="200"
-                     style="display: block; margin: 0 auto; margin-left: 50px;">
+                  <img src="assets/img/project-4.png" alt="PerfectPrayer" class="projects__img">
                </div>
                <div class="projects__content">
                   <h2 class="projects__title">PerfectPrayer</h2>
-                  <p class="certifications__description" style="text-align: justify;">
-                     Developed and deployed a real-time Rak'ah tracking system for Salah on Android phones and watches. 
-                     The project utilizes IMU sensors for motion recognition and features an enhanced Android app that 
-                     provides real-time accuracy and error detection, ensuring reliable and user-friendly performance.
+                  <p class="projects__description">
+                     Real-time Rak'ah tracking on Android phones and watches using IMU sensing for motion recognition and error detection.
                   </p>
                </div>
             </article>
 
-            <article class="projects__card" style="display: flex; flex-direction: column; height: 100%;">
+            <article class="projects__card">
                <div class="projects__image">
-                  <img src="assets/img/project-5.png" alt="Picture 5" class="projects__img" width="200" height="200"
-                     style="display: block; margin: 0 auto; margin-left: 50px;">
+                  <img src="assets/img/project-5.png" alt="Fairness-aware medical imaging" class="projects__img">
                </div>
                <div class="projects__content">
                   <h2 class="projects__title">Fairness-Aware Medical Imaging</h2>
-                  <p class="certifications__description" style="text-align: justify;">
-                     Implemented adversarial and balanced fine-tuning strategies to reduce demographic bias in chest X-ray classification. 
-                     Improved fairness across gender, race, and insurance groups while maintaining diagnostic accuracy on real-world medical data.
+                  <p class="projects__description">
+                     Adversarial and balanced fine-tuning to reduce demographic bias in chest X-ray classification while preserving diagnostic accuracy.
                   </p>
                </div>
             </article>
-
-
-
-                     
          </div>
       </section>
 
+      <!--==================== TALKS & ACTIVITIES ====================-->
+      <section class="certifications section" id="Talks">
+         <h2 class="section__title-2">
+            <span>Talks & Activities</span>
+         </h2>
+         <p class="section__lead container">Selected talks first; courses and competitions kept brief for context.</p>
+         <div class="activity__container container grid">
+            <article class="activity__card activity__card--talks">
+               <h2 class="activity__heading">Talks</h2>
+               <ul class="activity__list">
+                  <li class="activity__item">
+                     <a href="https://www.torontomachinelearning.com/presenter/ahmed-radwan/" target="_blank" class="activity__title">
+                        TMLS 2026: SONIC-O1
+                     </a>
+                     <p class="activity__text">
+                        10th Annual Toronto Machine Learning Summit: omnimodal evaluation, temporal localization gaps, and demographic disparities in MLLMs.
+                     </p>
+                  </li>
+                  <li class="activity__item">
+                     <span class="activity__title">AI4Good @ Vector: UnBias-Plus</span>
+                     <p class="activity__text">
+                        Internal AI4Good talk on detecting, explaining, and rewriting biased language in content and training data.
+                     </p>
+                  </li>
+               </ul>
+            </article>
+
+            <article class="activity__card">
+               <h2 class="activity__heading">Selected Courses</h2>
+               <ul class="activity__list activity__list--compact">
+                  <li><a href="https://drive.google.com/file/d/1kOeNijqiLIStLqa5FzvXveAALVxns6Bf/view" target="_blank">KAUST-SDAIA AI Summer Program</a></li>
+                  <li>KAUST TinyML Course</li>
+                  <li><a href="https://www.coursera.org/account/accomplishments/specialization/YLJ8UC55XP9A" target="_blank">Mathematics for ML & Data Science</a></li>
+                  <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/RNR7STK2K6P3" target="_blank">Machine Learning Specialization</a></li>
+               </ul>
+            </article>
+
+            <article class="activity__card">
+               <h2 class="activity__heading">Competitions & Mentoring</h2>
+               <ul class="activity__list activity__list--compact">
+                  <li><a href="https://www.linkedin.com/posts/adtc-2024_adtc2024-automationconference-digitaltransformation-activity-7190633158474670081-6dje/" target="_blank">1st Place, ISA / Aramco Student Games (GreenSight AI)</a></li>
+                  <li>1st Place, Sehah Thon 2 (Enjad)</li>
+                  <li>SUAS 2024 · Saudi Space App Hackathon · KAUST AI Hackathon</li>
+                  <li>Teaching CV / Intro AI / TinyML bootcamps · WAICY 2023 coordinator</li>
+                  <li>Certificate of Excellence (2019-2024)</li>
+               </ul>
+            </article>
+         </div>
+      </section>
       <!--==================== CONTACT ====================-->
       <section class="contact section" id="contact">
          <div class="contact__container grid">
@@ -777,11 +840,10 @@
                </h2>
 
                <p class="contact__description-1">
-                  I will read all emails and reply to you. Send me a message, and I'll get back to you.
+                  Open to research collaborations and roles in trustworthy multimodal AI.
                </p>
                <p class="contact__description-2">
-                  Please include your <b>Name</b> and <b>Email Address</b>. You will only receive a reply to your
-                  message.
+                  Include your <b>name</b> and <b>email</b>. I'll reply to messages that reach this form.
                </p>
 
                <div class="geometric-box"></div>
@@ -858,26 +920,15 @@
    <footer class="footer">
       <div class="footer__container container grid">
          <ul class="footer__links">
-            <li>
-               <a href="#about" class="footer__link">About</a>
-            </li>
-            <li>
-               <a href="#Experience" class="footer__link">Experience</a>
-            </li>
-            <li>
-               <a href="#Publications" class="footer__link">Publications</a>
-            </li>
-            <li>
-               <a href="#Personal_Dev" class="footer__link">Personal Development</a>
-            </li>
-            <li>
-               <a href="#Projects" class="footer__link">Projects</a>
-            </li>
-
+            <li><a href="#about" class="footer__link">About</a></li>
+            <li><a href="#Experience" class="footer__link">Experience</a></li>
+            <li><a href="#Publications" class="footer__link">Publications</a></li>
+            <li><a href="#Projects" class="footer__link">Projects</a></li>
+            <li><a href="#Talks" class="footer__link">Talks</a></li>
          </ul>
 
          <span class="footer__copy">
-
+            &#169; 2026 Ahmed Radwan
          </span>
       </div>
    </footer>
