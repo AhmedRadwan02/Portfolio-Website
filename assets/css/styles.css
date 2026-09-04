@@ -1065,6 +1065,19 @@ body.dark-theme{
   cursor: pointer;
 }
 
+.contact__linkedin-text {
+  color: var(--text-color-light);
+  text-align: center;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.contact__linkedin-button {
+  display: inline-flex;
+  width: max-content;
+  margin-inline: auto;
+}
+
 /* Opaque placeholder */
 .contact__input:focus::placeholder {
   opacity: 0;
@@ -1549,6 +1562,12 @@ body.dark-theme{
     text-align: initial;
 
   }
+  .contact__linkedin-text {
+    text-align: initial;
+  }
+  .contact__linkedin-button {
+    margin-inline: 0;
+  }
   .contact__box{
     height: 60px;
   }
@@ -1621,7 +1640,18 @@ body.dark-theme{
   letter-spacing: .04em;
   text-transform: uppercase;
   color: var(--first-color);
-  margin-bottom: .75rem;
+  margin-bottom: .45rem;
+}
+
+.home__venues {
+  text-align: center;
+  max-width: 36rem;
+  margin: 0 auto .85rem;
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-medium);
+  letter-spacing: .03em;
+  line-height: 1.5;
+  color: var(--text-color);
 }
 
 .home__actions {
@@ -1788,8 +1818,13 @@ a.activity__title:hover {
     margin-bottom: 2.5rem;
   }
 
-  .home__role {
+  .home__role,
+  .home__venues {
     text-align: initial;
+  }
+
+  .home__venues {
+    margin-inline: 0;
   }
 
   .home__actions {

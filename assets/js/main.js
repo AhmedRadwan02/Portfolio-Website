@@ -33,31 +33,6 @@ const shadowHeader = () => {
 }
 window.addEventListener('scroll', shadowHeader)
 
-/*=============== EMAIL JS ===============*/
-const contactForm = document.getElementById('contact-form'),
-    contactMessage = document.getElementById('contact-message')
-
-const sendEmail = (e) => {
-    e.preventDefault()
-
-    emailjs.sendForm('service_5eut1gq', 'template_xf5ofbj', '#contact-form', 'VhxQ-Ndc_OYGmOnI6')
-        .then(() => {
-            contactMessage.textContent = 'Message sent successfully ✅'
-
-            setTimeout(() => {
-                contactMessage.textContent = ''
-            }, 5000)
-
-            contactForm.reset()
-        }, () => {
-            contactMessage.textContent = 'Message not sent (service error) ❌'
-        })
-}
-
-if (contactForm) {
-    contactForm.addEventListener('submit', sendEmail)
-}
-
 /*=============== SHOW SCROLL UP ===============*/
 const scrollUp = () => {
     const scrollUpEl = document.getElementById('scroll-up')
